@@ -1,0 +1,1589 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8513f4a387e6f41b041d2891c9e1e9, type: 3}
+  m_Name: DungeonDataCsv
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: floorMap
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[FloorConfigData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 30
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 1
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 2
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 3
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 4
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 5
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 6
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 7
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 8
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 9
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 10
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 11
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 12
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 13
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 13
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 14
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 14
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 15
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 15
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 16
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 17
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 17
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 18
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 18
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 19
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 19
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 20
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 20
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 21
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 21
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 22
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 22
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 23
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 23
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 24
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 24
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 25
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 25
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 26
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 26
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 27
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 27
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 28
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 28
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 29
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 29
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 30
+    - Name: $v
+      Entry: 7
+      Data: FloorConfigData, Assembly-CSharp
+    - Name: floorId
+      Entry: 3
+      Data: 30
+    - Name: numberOfTrial
+      Entry: 3
+      Data: 3
+    - Name: numberOfCard
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: enemyMap
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[EnemyConfigData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 30
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 1
+    - Name: attack
+      Entry: 3
+      Data: 5
+    - Name: health
+      Entry: 3
+      Data: 10
+    - Name: defense
+      Entry: 3
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 2
+    - Name: attack
+      Entry: 3
+      Data: 8
+    - Name: health
+      Entry: 3
+      Data: 17
+    - Name: defense
+      Entry: 3
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 3
+    - Name: attack
+      Entry: 3
+      Data: 11
+    - Name: health
+      Entry: 3
+      Data: 24
+    - Name: defense
+      Entry: 3
+      Data: 18
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 4
+    - Name: attack
+      Entry: 3
+      Data: 14
+    - Name: health
+      Entry: 3
+      Data: 31
+    - Name: defense
+      Entry: 3
+      Data: 24
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 5
+    - Name: attack
+      Entry: 3
+      Data: 17
+    - Name: health
+      Entry: 3
+      Data: 38
+    - Name: defense
+      Entry: 3
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 6
+    - Name: attack
+      Entry: 3
+      Data: 20
+    - Name: health
+      Entry: 3
+      Data: 45
+    - Name: defense
+      Entry: 3
+      Data: 36
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 7
+    - Name: attack
+      Entry: 3
+      Data: 23
+    - Name: health
+      Entry: 3
+      Data: 52
+    - Name: defense
+      Entry: 3
+      Data: 42
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 8
+    - Name: attack
+      Entry: 3
+      Data: 26
+    - Name: health
+      Entry: 3
+      Data: 59
+    - Name: defense
+      Entry: 3
+      Data: 48
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 9
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 9
+    - Name: attack
+      Entry: 3
+      Data: 29
+    - Name: health
+      Entry: 3
+      Data: 66
+    - Name: defense
+      Entry: 3
+      Data: 54
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 10
+    - Name: attack
+      Entry: 3
+      Data: 32
+    - Name: health
+      Entry: 3
+      Data: 73
+    - Name: defense
+      Entry: 3
+      Data: 60
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 11
+    - Name: attack
+      Entry: 3
+      Data: 35
+    - Name: health
+      Entry: 3
+      Data: 80
+    - Name: defense
+      Entry: 3
+      Data: 66
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 12
+    - Name: attack
+      Entry: 3
+      Data: 38
+    - Name: health
+      Entry: 3
+      Data: 87
+    - Name: defense
+      Entry: 3
+      Data: 72
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 13
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 13
+    - Name: attack
+      Entry: 3
+      Data: 41
+    - Name: health
+      Entry: 3
+      Data: 94
+    - Name: defense
+      Entry: 3
+      Data: 78
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 14
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 14
+    - Name: attack
+      Entry: 3
+      Data: 44
+    - Name: health
+      Entry: 3
+      Data: 101
+    - Name: defense
+      Entry: 3
+      Data: 84
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 15
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 15
+    - Name: attack
+      Entry: 3
+      Data: 47
+    - Name: health
+      Entry: 3
+      Data: 108
+    - Name: defense
+      Entry: 3
+      Data: 90
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 16
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 16
+    - Name: attack
+      Entry: 3
+      Data: 50
+    - Name: health
+      Entry: 3
+      Data: 115
+    - Name: defense
+      Entry: 3
+      Data: 96
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 17
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 17
+    - Name: attack
+      Entry: 3
+      Data: 53
+    - Name: health
+      Entry: 3
+      Data: 122
+    - Name: defense
+      Entry: 3
+      Data: 102
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 18
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 18
+    - Name: attack
+      Entry: 3
+      Data: 56
+    - Name: health
+      Entry: 3
+      Data: 129
+    - Name: defense
+      Entry: 3
+      Data: 108
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 19
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 19
+    - Name: attack
+      Entry: 3
+      Data: 59
+    - Name: health
+      Entry: 3
+      Data: 136
+    - Name: defense
+      Entry: 3
+      Data: 114
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 20
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 20
+    - Name: attack
+      Entry: 3
+      Data: 62
+    - Name: health
+      Entry: 3
+      Data: 143
+    - Name: defense
+      Entry: 3
+      Data: 120
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 21
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 21
+    - Name: attack
+      Entry: 3
+      Data: 65
+    - Name: health
+      Entry: 3
+      Data: 150
+    - Name: defense
+      Entry: 3
+      Data: 126
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 22
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 22
+    - Name: attack
+      Entry: 3
+      Data: 68
+    - Name: health
+      Entry: 3
+      Data: 157
+    - Name: defense
+      Entry: 3
+      Data: 132
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 23
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 23
+    - Name: attack
+      Entry: 3
+      Data: 71
+    - Name: health
+      Entry: 3
+      Data: 164
+    - Name: defense
+      Entry: 3
+      Data: 138
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 24
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 24
+    - Name: attack
+      Entry: 3
+      Data: 74
+    - Name: health
+      Entry: 3
+      Data: 171
+    - Name: defense
+      Entry: 3
+      Data: 144
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 25
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 25
+    - Name: attack
+      Entry: 3
+      Data: 77
+    - Name: health
+      Entry: 3
+      Data: 178
+    - Name: defense
+      Entry: 3
+      Data: 150
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 26
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 26
+    - Name: attack
+      Entry: 3
+      Data: 80
+    - Name: health
+      Entry: 3
+      Data: 185
+    - Name: defense
+      Entry: 3
+      Data: 156
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 27
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 27
+    - Name: attack
+      Entry: 3
+      Data: 83
+    - Name: health
+      Entry: 3
+      Data: 192
+    - Name: defense
+      Entry: 3
+      Data: 162
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 28
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 28
+    - Name: attack
+      Entry: 3
+      Data: 86
+    - Name: health
+      Entry: 3
+      Data: 199
+    - Name: defense
+      Entry: 3
+      Data: 168
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 29
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 29
+    - Name: attack
+      Entry: 3
+      Data: 89
+    - Name: health
+      Entry: 3
+      Data: 206
+    - Name: defense
+      Entry: 3
+      Data: 174
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 30
+    - Name: $v
+      Entry: 7
+      Data: EnemyConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 30
+    - Name: attack
+      Entry: 3
+      Data: 92
+    - Name: health
+      Entry: 3
+      Data: 213
+    - Name: defense
+      Entry: 3
+      Data: 180
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
