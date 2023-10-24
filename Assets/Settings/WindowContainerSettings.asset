@@ -13,9 +13,21 @@ MonoBehaviour:
   m_Name: WindowContainerSettings
   m_EditorClassIdentifier: 
   containers:
-  - name: 
-    containerType: 0
-    overrideSorting: 0
+  - name: Screen
+    containerType: 1
+    overrideSorting: 1
     sortingLayer:
       id: 0
-    orderInLayer: 0
+    orderInLayer: 500
+  - name: Modal
+    containerType: 0
+    overrideSorting: 1
+    sortingLayer:
+      id: 0
+    orderInLayer: 1000
+  - name: Activity
+    containerType: 2
+    overrideSorting: 1
+    sortingLayer:
+      id: 0
+    orderInLayer: 2000
