@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: CsvDataController
   m_EditorClassIdentifier: 
   data:
+  - {fileID: 11400000, guid: d001e71111d0c254bafe303d8a463139, type: 2}
   - {fileID: 11400000, guid: bee129c92f1d8c246bdc12cfccc68f4e, type: 2}
-  csvDataName: HeroData
+  csvDataName: FloorData
