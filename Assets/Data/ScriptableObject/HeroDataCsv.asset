@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b79a031f44a7364b9b9730535a7ed02, type: 3}
+  m_Name: HeroDataCsv
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: heroMap
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[HeroConfigData,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.Int32,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: HeroConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 1
+    - Name: heroClass
+      Entry: 3
+      Data: 1
+    - Name: skillDescription
+      Entry: 1
+      Data: When attacking, this hero has {0} chance to attack twice.
+    - Name: attack
+      Entry: 3
+      Data: 5
+    - Name: health
+      Entry: 3
+      Data: 1
+    - Name: defense
+      Entry: 3
+      Data: 1
+    - Name: critRate
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: HeroConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 2
+    - Name: heroClass
+      Entry: 3
+      Data: 0
+    - Name: skillDescription
+      Entry: 1
+      Data: This hero increases himself {0} Crit rate by each passed floor.
+    - Name: attack
+      Entry: 3
+      Data: 5
+    - Name: health
+      Entry: 3
+      Data: 1
+    - Name: defense
+      Entry: 3
+      Data: 1
+    - Name: critRate
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: HeroConfigData, Assembly-CSharp
+    - Name: id
+      Entry: 3
+      Data: 3
+    - Name: heroClass
+      Entry: 3
+      Data: 2
+    - Name: skillDescription
+      Entry: 1
+      Data: This hero increases himself {0} ATK by each passed floor.
+    - Name: attack
+      Entry: 3
+      Data: 5
+    - Name: health
+      Entry: 3
+      Data: 1
+    - Name: defense
+      Entry: 3
+      Data: 1
+    - Name: critRate
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

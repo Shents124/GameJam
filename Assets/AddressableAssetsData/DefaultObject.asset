@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f90c27c51c90fd408fe1d9d539c91be, type: 3}
-  m_Name: CsvDataController
+  m_Script: {fileID: 11500000, guid: 3a189bb168d8d90478a09ea08c2f3d72, type: 3}
+  m_Name: DefaultObject
   m_EditorClassIdentifier: 
-  data:
-  - {fileID: 11400000, guid: bee129c92f1d8c246bdc12cfccc68f4e, type: 2}
-  csvDataName: HeroData
+  m_AddressableAssetSettingsGuid: 4e6f4aff1a8c5ba4bbc2783a7a3bb923

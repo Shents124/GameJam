@@ -9,9 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f90c27c51c90fd408fe1d9d539c91be, type: 3}
-  m_Name: CsvDataController
+  m_Script: {fileID: 11500000, guid: 736bbb2fa3a44adeb97aab232e838c33, type: 3}
+  m_Name: WindowContainerSettings
   m_EditorClassIdentifier: 
-  data:
-  - {fileID: 11400000, guid: bee129c92f1d8c246bdc12cfccc68f4e, type: 2}
-  csvDataName: HeroData
+  containers:
+  - name: 
+    containerType: 0
+    overrideSorting: 0
+    sortingLayer:
+      id: 0
+    orderInLayer: 0

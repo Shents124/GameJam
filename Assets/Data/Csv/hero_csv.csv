@@ -1,0 +1,4 @@
+id,hero_class,skill_description,attack,health,defense,crite_rate
+1,Mage,"When attacking, this hero has {0} chance to attack twice.",5,1,1,0.1
+2,Warior,This hero increases himself {0} Crit rate by each passed floor.,5,1,1,0.1
+3,Fairy,This hero increases himself {0} ATK by each passed floor.,5,1,1,0.1

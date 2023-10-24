@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63af14d364eb60e478c203b542d1a525, type: 3}
   m_Name: CsvConfig
   m_EditorClassIdentifier: 
-  assemblyNames: []
+  assemblyNames:
+  - \Library\ScriptAssemblies\Assembly-CSharp.dll
   toolConfigPath: Assets/Plugins/CsvReader
   csvConfigPath: Assets/Plugins/CsvReader/Data
   csvPath: Assets/Data/Csv
