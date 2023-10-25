@@ -33,6 +33,82 @@ MonoBehaviour:
     m_Address: select_hero_2
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 90d54203014dc3140b4e4c62e4b30cc8
+    m_Address: CardData101
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc022a1f1f622a54a87cd552bb2b7a9d
+    m_Address: CardData102
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f52d835644b61654bb4c36f9e9094d4b
+    m_Address: CardData103
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 625e95b8bec398f4aa2f6076ef207a4f
+    m_Address: CardData104
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 810cf6a5c441333408c608267fb00b53
+    m_Address: CardData105
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4cf6a56270dd3c24092f18440774c9f0
+    m_Address: CardData106
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 513ec370ba0c3ec4ba20b97cd97dd9cc
+    m_Address: CardData107
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0cb8c997ce35dfd4299f213275c8c59b
+    m_Address: CardData111
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 28945a687d9b5414b8775a37fdd8b652
+    m_Address: CardData112
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fb1b5488ab0ea0c4c93ab7082dbc206c
+    m_Address: CardData113
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 26949e7c471b90d46b68244bb9d36063
+    m_Address: CardData114
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 840026532972bbd4b84391fe9f20c90f
+    m_Address: CardData115
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7dcbaf966363e634db22c3930b0145be
+    m_Address: CardData116
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 46148c0bbd46f0a42a1bc6c56d1f20b4
+    m_Address: CardData117
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a167ba61f55bd9d43beeaed3dfa4a58e
+    m_Address: CardData118
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5dabf97b8ad5c7445b87d6ccae0b3463
+    m_Address: CardData119
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5e701be02d585b04b9bdd3f56a69c8e9
+    m_Address: CardData120
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2dbec5557de154148b6345d3473c6bd0
+    m_Address: DungeonDataCsv
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d69e56ccc8a810468a07dea91b33d9f
+    m_Address: HeroDataCsv
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 4e6f4aff1a8c5ba4bbc2783a7a3bb923, type: 2}
   m_SchemaSet:
