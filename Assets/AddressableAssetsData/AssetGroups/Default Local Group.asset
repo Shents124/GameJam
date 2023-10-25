@@ -21,10 +21,6 @@ MonoBehaviour:
     m_Address: main_screen
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 048fadf6796fa984395b209b94b95c05
-    m_Address: select_hero
-    m_ReadOnly: 0
-    m_SerializedLabels: []
   - m_GUID: 75a8872191543194abc701650f40894e
     m_Address: select_hero 1
     m_ReadOnly: 0
@@ -207,6 +203,8 @@ MonoBehaviour:
     m_SerializedLabels: []
   - m_GUID: 5ca8cae56bcfb5c46af47fd7044ed68e
     m_Address: card_120
+  - m_GUID: 048fadf6796fa984395b209b94b95c05
+    m_Address: select_hero
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0

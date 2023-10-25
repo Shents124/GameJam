@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7578191066135971443}
   - component: {fileID: 4741555247180858071}
+  - component: {fileID: 8619582626540588635}
   m_Layer: 5
   m_Name: main_screen
   m_TagString: Untagged
@@ -50,7 +51,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4917e080df1312245acbe40dc924b75e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _openSelectHero: {fileID: 7578191066584869961}
+  _dontAddCanvasGroupAutomatically: 0
+  _usePrefabNameAsIdentifier: 1
+  _identifier: 
+  _rectTransform: {fileID: 0}
+  _canvasGroup: {fileID: 8619582626540588635}
+  _renderingOrder: 0
+  _animationContainer:
+    _pushEnterAnimations: []
+    _pushExitAnimations: []
+    _popEnterAnimations: []
+    _popExitAnimations: []
+  _buttonSelectHero: {fileID: 7578191066584869961}
+--- !u!225 &8619582626540588635
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7578191066135971444}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &7578191066462338084
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,9 +141,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Load popup
-
-'
+  m_text: Start
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -201,7 +223,7 @@ GameObject:
   - component: {fileID: 7578191066584869960}
   - component: {fileID: 7578191066584869961}
   m_Layer: 5
-  m_Name: Button
+  m_Name: StartButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
