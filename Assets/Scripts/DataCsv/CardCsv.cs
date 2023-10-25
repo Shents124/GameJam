@@ -1,43 +1,30 @@
-using System.Collections.Generic;
 using Sirenix.OdinInspector;
+using UnityEngine;
 
-public enum SkillType
+namespace Assets.Scripts.DataCsv
 {
-    Passive,
-    Active,
-}
-
-public class CardCsv : SerializedScriptableObject
-{
-    public Dictionary<int, CardConfigData> cardMap = new();
-
-    private CardConfigData[] _cardCsvs;
-
-    public void ConvertData()
+    public enum CardType
     {
-        cardMap = new();
-        foreach (var item in _cardCsvs)
+        Passive,
+        Active,
+    }
+
+    public enum EffectType
+    {
+        FireMark,
+        WaterMark
+    }
+
+    [CreateAssetMenu(fileName = "CardData", menuName = "ScriptableObjects/CardData")]
+    public class CardCsv : SerializedScriptableObject
+    {
+        public int id;
+        public CardType skillType;
+        public string skillDescription;
+
+        public string GetDescription(params object[] args)
         {
-            cardMap.Add(item.id, item);        
+            return string.Format(skillDescription, args);
         }
     }
-}
-
-public struct CardConfigData
-{
-    public int id;
-    public SkillType skillType;
-    public string skillDescription;
-
-
-
-    public string GetDescription(params object[] args)
-    {
-        return string.Format(skillDescription, args);
-    }
-}
-
-public struct CardEffectData 
-{
-
 }
