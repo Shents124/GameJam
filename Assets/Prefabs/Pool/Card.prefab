@@ -648,8 +648,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b05bdc681bf74e5088a646b25ffa02e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textCardName: {fileID: 0}
-  textCardDescription: {fileID: 0}
+  textName: {fileID: 3053663268978943204}
+  textDescription: {fileID: 8662797414837619510}
+  imgCard: {fileID: 1253708191912757544}
+  starCard: {fileID: 7135696008901597332}
 --- !u!1 &9043751140761633484
 GameObject:
   m_ObjectHideFlags: 0
