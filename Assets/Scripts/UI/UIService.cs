@@ -11,10 +11,16 @@ public struct UIContant
 
 public static class UIService 
 {
-    public static async UniTask OpenMainScreen()
+    public static async UniTask OpenScreen(string path, bool playAnimation = true, params object[] args)
     {
-        var screenOptions = new ScreenOptions(UIPath.main_screen.ToString(), false);
-        await ScreenContainer.Find(UIContant.SCREEN).PushAsync(screenOptions);
+        var screenOptions = new ScreenOptions(path, playAnimation);
+        await ScreenContainer.Find(UIContant.SCREEN).PushAsync(screenOptions, args);
+    }
+
+    public static async UniTask PreloadScreen(string path)
+    {
+        //var screenOptions = new ScreenOptions(path, playAnimation);
+        await ScreenContainer.Find(UIContant.SCREEN).PreloadAsync(path);
     }
 
     public static async UniTask OpenModalAsync(string resourcePath, bool playAnimation = true,

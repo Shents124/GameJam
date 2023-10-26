@@ -17,7 +17,7 @@ namespace Assets.Scripts.UI
 
         private void OnClickedSelectHero()
         {
-            UIService.OpenModalAsync(UIPath.select_hero_2.ToString(), closeWhenClickOnBackDrop: false).Forget();
+            UIService.OpenScreen(UIPath.screen_battle.ToString(), args: 2).Forget();
         }
     }
 }

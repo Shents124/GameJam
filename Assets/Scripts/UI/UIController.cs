@@ -6,6 +6,6 @@ public class UIController : UnityScreenNavigatorLauncher
     protected override void Start()
     {
         base.Start();
-        UIService.OpenMainScreen().Forget();
+        UIService.OpenScreen(UIPath.main_screen.ToString(), false).Forget();
     }
 }
