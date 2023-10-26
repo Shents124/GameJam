@@ -19,12 +19,14 @@ namespace Assets.Scripts.DataCsv
     public class CardCsv : SerializedScriptableObject
     {
         public int id;
+        public string cardName;
+        public int star;
         public CardType skillType;
         public string skillDescription;
 
-        public string GetDescription(params object[] args)
+        public virtual string GetDescription()
         {
-            return string.Format(skillDescription, args);
+            return default;
         }
     }
 }
