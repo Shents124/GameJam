@@ -47,6 +47,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 1
+    - Name: enemyId
+      Entry: 3
+      Data: 1
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -71,6 +74,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 2
+    - Name: enemyId
+      Entry: 3
+      Data: 2
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -95,6 +101,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 3
+    - Name: enemyId
+      Entry: 3
+      Data: 1
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -119,6 +128,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 4
+    - Name: enemyId
+      Entry: 3
+      Data: 3
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -143,6 +155,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 5
+    - Name: enemyId
+      Entry: 3
+      Data: 2
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -167,6 +182,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 6
+    - Name: enemyId
+      Entry: 3
+      Data: 4
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -191,6 +209,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 7
+    - Name: enemyId
+      Entry: 3
+      Data: 5
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -215,6 +236,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 8
+    - Name: enemyId
+      Entry: 3
+      Data: 6
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -239,6 +263,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 9
+    - Name: enemyId
+      Entry: 3
+      Data: 7
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -263,6 +290,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 10
+    - Name: enemyId
+      Entry: 3
+      Data: 5
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -287,6 +317,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 11
+    - Name: enemyId
+      Entry: 3
+      Data: 8
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -311,6 +344,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 12
+    - Name: enemyId
+      Entry: 3
+      Data: 7
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -335,6 +371,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 13
+    - Name: enemyId
+      Entry: 3
+      Data: 8
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -359,6 +398,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 14
+    - Name: enemyId
+      Entry: 3
+      Data: 7
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -383,6 +425,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 15
+    - Name: enemyId
+      Entry: 3
+      Data: 8
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -407,6 +452,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 16
+    - Name: enemyId
+      Entry: 3
+      Data: 0
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -431,6 +479,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 17
+    - Name: enemyId
+      Entry: 3
+      Data: 0
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -455,6 +506,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 18
+    - Name: enemyId
+      Entry: 3
+      Data: 0
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -479,6 +533,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 19
+    - Name: enemyId
+      Entry: 3
+      Data: 0
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -503,6 +560,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 20
+    - Name: enemyId
+      Entry: 3
+      Data: 0
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -527,6 +587,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 21
+    - Name: enemyId
+      Entry: 3
+      Data: 0
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -551,6 +614,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 22
+    - Name: enemyId
+      Entry: 3
+      Data: 0
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -575,6 +641,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 23
+    - Name: enemyId
+      Entry: 3
+      Data: 0
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -599,6 +668,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 24
+    - Name: enemyId
+      Entry: 3
+      Data: 0
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -623,6 +695,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 25
+    - Name: enemyId
+      Entry: 3
+      Data: 0
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -647,6 +722,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 26
+    - Name: enemyId
+      Entry: 3
+      Data: 0
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -671,6 +749,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 27
+    - Name: enemyId
+      Entry: 3
+      Data: 0
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -695,6 +776,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 28
+    - Name: enemyId
+      Entry: 3
+      Data: 0
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -719,6 +803,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 29
+    - Name: enemyId
+      Entry: 3
+      Data: 0
     - Name: numberOfTrial
       Entry: 3
       Data: 3
@@ -743,6 +830,9 @@ MonoBehaviour:
     - Name: floorId
       Entry: 3
       Data: 30
+    - Name: enemyId
+      Entry: 3
+      Data: 0
     - Name: numberOfTrial
       Entry: 3
       Data: 3

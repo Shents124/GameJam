@@ -31,6 +31,7 @@ public class DungeonDataCsv : SerializedScriptableObject
 public struct FloorConfigData
 {
     public int floorId;
+    public int enemyId;
     public int numberOfTrial;
     public int numberOfCard;
 }

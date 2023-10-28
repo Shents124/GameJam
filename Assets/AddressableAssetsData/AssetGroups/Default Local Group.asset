@@ -221,6 +221,38 @@ MonoBehaviour:
     m_Address: Assets.Scripts.DataCsv.CardDataCsv
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 9417b0bd9d0481741a61879de454990a
+    m_Address: enemy_7
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ccafd7ae7c3e4cd47bb181217aa3423d
+    m_Address: enemy_8
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8afd15a57bbd88d43a1d205b798fedaf
+    m_Address: enemy_6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 987fd3725b4f87f4ab4aee4ce42cd599
+    m_Address: enemy_5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7bd41ac314fc79d43b4edda04db53a7c
+    m_Address: enemy_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cf11bb5226edb7d469654077b4d52deb
+    m_Address: enemy_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c52e4b704c58e374a9e0aa510ffd094a
+    m_Address: enemy_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 88c958fd96d018941ac0601bc2fdb8ed
+    m_Address: enemy_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 4e6f4aff1a8c5ba4bbc2783a7a3bb923, type: 2}
   m_SchemaSet:

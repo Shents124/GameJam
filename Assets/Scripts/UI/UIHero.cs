@@ -1,8 +1,10 @@
 using System;
+using AssetLoad;
 using Cysharp.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using ZBase.Foundation.Singletons;
 
 namespace Assets.Scripts.UI
 {
@@ -35,9 +37,9 @@ namespace Assets.Scripts.UI
             buttonSelect.onClick.AddListener(OnSelect);
         }
 
-        private static void OnSelect()
+        private void OnSelect()
         {
-            UIService.OpenScreen(UIPath.screen_battle.ToString(), args: 2).Forget();
+            UIService.OpenScreen(UIPath.screen_battle.ToString(), args: this._id).Forget();
             UIService.CloseModal();
         }
 
@@ -64,6 +66,11 @@ namespace Assets.Scripts.UI
             textHp.text = $"HP: {_health}";
             textDef.text = $"DEF: {_defense}";
             textCritRate.text = $"CRIT: {_critRate}";
+            
+            var path = $"hero_{_id}";
+            var heroPrefab = Singleton.Of<LoadResourceService>().LoadAsset<GameObject>(path);
+            var heroObject = Instantiate(heroPrefab, heroAnchor);
+            
         }
 
         private static string GetHeroClassText(HeroClass heroClass){

@@ -787,7 +787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textName: {fileID: 5879028777753462747}
-  heroAnchor: {fileID: 0}
+  heroAnchor: {fileID: 4715193570415972652}
   textClass: {fileID: 805139267274635440}
   textDescription: {fileID: 805139267152967962}
   textAtk: {fileID: 805139266267637192}
