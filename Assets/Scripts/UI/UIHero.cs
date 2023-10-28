@@ -1,11 +1,8 @@
 using System;
-using System.Net.Mime;
-using AssetLoad;
-using Assets.Scripts.DataCsv;
+using Cysharp.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using ZBase.Foundation.Singletons;
 
 namespace Assets.Scripts.UI
 {
@@ -21,8 +18,10 @@ namespace Assets.Scripts.UI
         [SerializeField] private TextMeshProUGUI textCritRate;
         [SerializeField] private Button buttonSelect;
 
+        private Action<int> _onClickEvent;
 
         private int _id;
+        private string _name;
         private HeroClass _heroClass;
         private int _attack;
         private int _health;
@@ -30,36 +29,50 @@ namespace Assets.Scripts.UI
         private float _critRate;
         private string _skillDescription;
 
-        public void Init()
+        public void Start()
         {
-            
+            _onClickEvent= (_) => { };
+            buttonSelect.onClick.AddListener(OnSelect);
         }
 
-        private void SelectCard(CardCsv selectedCard)
+        private static void OnSelect()
         {
-            
+            UIService.OpenScreen(UIPath.screen_battle.ToString(), args: 2).Forget();
+            UIService.CloseModal();
         }
-
 
         public void SetData(HeroConfigData data)
         {
             this._id = data.id;
+            this._name = data.heroName;
             this._heroClass = data.heroClass;
             this._attack = data.attack;
             this._health = data.health;
             this._defense = data.defense;
             this._critRate = data.critRate;
             this._skillDescription = data.skillDescription;
+
+            SetUI();
         }
 
         private void SetUI()
         {
-            textName.text = "Buba";
+            textName.text = _name;
+            textClass.text = GetHeroClassText(_heroClass);
             textDescription.text = _skillDescription;
             textAtk.text = $"ATK: {_attack}";
             textHp.text = $"HP: {_health}";
             textDef.text = $"DEF: {_defense}";
             textCritRate.text = $"CRIT: {_critRate}";
+        }
+
+        private static string GetHeroClassText(HeroClass heroClass){
+            return heroClass switch {
+                HeroClass.Fairy => "Fairy",
+                HeroClass.Warrior => "Warrior",
+                HeroClass.Mage => "Mage",
+                _ => ""
+            };
         }
     }
 }

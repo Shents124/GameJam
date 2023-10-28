@@ -40,13 +40,16 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: $v
       Entry: 7
       Data: HeroConfigData, Assembly-CSharp
     - Name: id
       Entry: 3
       Data: 1
+    - Name: heroName
+      Entry: 1
+      Data: Buba 1
     - Name: heroClass
       Entry: 3
       Data: 1
@@ -76,13 +79,16 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 3
-      Data: 2
+      Data: 1
     - Name: $v
       Entry: 7
       Data: HeroConfigData, Assembly-CSharp
     - Name: id
       Entry: 3
       Data: 2
+    - Name: heroName
+      Entry: 1
+      Data: Buba 2
     - Name: heroClass
       Entry: 3
       Data: 0
@@ -112,13 +118,16 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 3
-      Data: 3
+      Data: 2
     - Name: $v
       Entry: 7
       Data: HeroConfigData, Assembly-CSharp
     - Name: id
       Entry: 3
       Data: 3
+    - Name: heroName
+      Entry: 1
+      Data: Buba 3
     - Name: heroClass
       Entry: 3
       Data: 2

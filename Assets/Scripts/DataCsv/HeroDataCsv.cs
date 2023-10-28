@@ -3,7 +3,7 @@ using Sirenix.OdinInspector;
 
 public enum HeroClass
 {
-    Warior,
+    Warrior,
     Mage,
     Fairy,
 }

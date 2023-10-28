@@ -22,7 +22,7 @@ namespace Assets.Scripts.UI
 
         private void OnClickedSelectHero()
         {
-            UIService.OpenScreen(UIPath.screen_battle.ToString(), args: 2).Forget();
+            UIService.OpenModalAsync(UIPath.select_hero.ToString()).Forget();
         }
     }
 }
