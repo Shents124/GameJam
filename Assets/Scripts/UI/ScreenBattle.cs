@@ -41,7 +41,6 @@ public class ScreenBattle : Screen
     public override UniTask Initialize(Memory<object> args)
     {
         var heroId = (int)args.ToArray()[0];
-        Debug.Log("hero id " + heroId);
         LoadDataCsv(heroId);
         LoadHero(heroId);
         SetFloorData();
@@ -53,7 +52,7 @@ public class ScreenBattle : Screen
         var loadService = Singleton.Of<LoadResourceService>();
         _dungeonDataCsv = loadService.LoadCsv<DungeonDataCsv>();
 
-        _heroData = loadService.LoadCsv<HeroDataCsv>().heroMap[heroId];
+        _heroData = loadService.LoadCsv<HeroDataCsv>().heroMap[heroId - 1];
         _cardDataCsv = loadService.LoadCsv<CardDataCsv>();
     }
 
@@ -64,7 +63,8 @@ public class ScreenBattle : Screen
         var heroObject = Instantiate(heroPrefab, heroContainer);
         _hero = heroObject.GetComponent<BaseHero>();
 
-        _hero.InitData(heroId, _heroData.attack, _heroData.defense, _heroData.health, _heroData.critRate,
+        _hero.InitData(heroId, HeroClass.Warrior, _heroData.attack, _heroData.defense, _heroData.health,
+            _heroData.critRate,
             _heroData.heroName);
     }
 
@@ -88,8 +88,6 @@ public class ScreenBattle : Screen
 
     private void OnClickedBattle()
     {
-        Debug.Log("current selected hero " + _selectedHeroId);
-
         var cardData101 = GetCardCsv(_cardDataCsv.cardDict[101].GetPath());
         var cardData102 = GetCardCsv(_cardDataCsv.cardDict[102].GetPath());
         var cardData103 = GetCardCsv(_cardDataCsv.cardDict[103].GetPath());
@@ -119,6 +117,7 @@ public class ScreenBattle : Screen
             {
                 NextFloor();
                 SetFloorData();
+                break;
             }
         }
     }
@@ -132,11 +131,6 @@ public class ScreenBattle : Screen
     {
         _currentFloor++;
         _hero.onPassFloor.Invoke(_currentFloor);
-    }
-
-    private void EventContainerOnonPassFloor()
-    {
-        throw new NotImplementedException();
     }
 
     private void SetFloorData()

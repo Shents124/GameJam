@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Gameplay
 {
@@ -81,7 +82,7 @@ namespace Gameplay
 
         private int GetDamage(int damage)
         {
-            var ran = UnityEngine.Random.Range(0, 1f);
+            var ran = Random.Range(0, 1f);
             return ran < CritRate ? damage * 2 : damage;
         }
 

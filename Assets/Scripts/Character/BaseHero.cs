@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine;
 
 namespace Gameplay
 {
@@ -8,21 +9,17 @@ namespace Gameplay
 
         public Action<int> onPassFloor;
 
-        protected override void Awake()
-        {
-            base.Awake();
-            onPassFloor = (_) => { };
-        }
-
         public void InitData(int id, HeroClass heroClass, int attack, int defense, int hp, float critRate, string characterName)
         {
-            InitData(id, attack, defense, hp, critRate, characterName);
+            onPassFloor = _ => { };
+            base.InitData(id, attack, defense, hp, critRate, characterName);
             this.heroClass = heroClass;
-            onPassFloor = OnPassFloor;
+            onPassFloor += OnPassFloor;
         }
 
-        protected virtual void OnPassFloor(int _)
+        public virtual void OnPassFloor(int _)
         {
+            Debug.Log("OnPassFloor");
         }
     }
 }
