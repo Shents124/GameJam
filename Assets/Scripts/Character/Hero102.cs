@@ -4,12 +4,7 @@ namespace Gameplay
     {
         private float _critRateBonus = 0.05f;
 
-        public override void OnUsePassiveSkill()
-        {
-            EventContainer.onPassFloor += HandlePassFloor;
-        }
-
-        private void HandlePassFloor()
+        protected override void OnPassFloor(int _)
         {
             CritRate += _critRateBonus;
         }

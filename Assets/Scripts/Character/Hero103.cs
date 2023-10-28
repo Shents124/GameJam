@@ -4,12 +4,7 @@ namespace Gameplay
     {
         private int _attackBonus = 4;
 
-        public override void OnUsePassiveSkill()
-        {
-            EventContainer.onPassFloor += HandlePassFloor;
-        }
-
-        private void HandlePassFloor()
+        protected override void OnPassFloor(int _)
         {
             Attack += _attackBonus;
         }

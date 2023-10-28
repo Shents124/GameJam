@@ -131,6 +131,12 @@ public class ScreenBattle : Screen
     private void NextFloor()
     {
         _currentFloor++;
+        _hero.onPassFloor.Invoke(_currentFloor);
+    }
+
+    private void EventContainerOnonPassFloor()
+    {
+        throw new NotImplementedException();
     }
 
     private void SetFloorData()
