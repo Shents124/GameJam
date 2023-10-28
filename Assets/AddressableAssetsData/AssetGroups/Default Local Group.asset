@@ -207,6 +207,26 @@ MonoBehaviour:
     m_Address: select_hero
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: e6dac61ac8e61084b81a14f1ddde7a88
+    m_Address: screen_battle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 05525c464b3e2704a901a69090fe475c
+    m_Address: hero_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d5d123794c9b16f41a891b33ef340bc8
+    m_Address: hero_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f39f128fe5d79944a4cdead121efd05
+    m_Address: hero_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bc581788a06a03e43bd3b6a6b7c01828
+    m_Address: Assets.Scripts.DataCsv.CardDataCsv
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 4e6f4aff1a8c5ba4bbc2783a7a3bb923, type: 2}
   m_SchemaSet:

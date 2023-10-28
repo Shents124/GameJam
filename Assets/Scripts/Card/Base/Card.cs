@@ -1,15 +1,12 @@
-using UnityEngine;
+using Assets.Scripts.DataCsv;
 
-namespace Card.Base
+namespace Gameplay
 {
-    public abstract class Card : MonoBehaviour
+    public abstract class Card
     {
         #region Member
 
-        public int id;
-        public int star;
-        public string name;
-        public string description;
+        public CardCsv cardCsv;
 
         #endregion
 
@@ -17,13 +14,14 @@ namespace Card.Base
 
         public void Init()
         {
-            InitData();
             InitPassive();
         }
-        protected void InitData(){ }
+
+        public abstract void InitData(CardCsv cardCsv);
+
         protected void InitPassive(){ }
 
-        public virtual void OnPlay() { }
+        public abstract void OnUseCard(BaseHero baseHero, Character enemy);
 
         #endregion
     }

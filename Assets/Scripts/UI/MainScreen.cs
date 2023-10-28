@@ -22,18 +22,7 @@ namespace Assets.Scripts.UI
 
         private void OnClickedSelectHero()
         {
-            UIService.OpenModalAsync(UIPath.select_hero.ToString()).Forget();
-        }
-
-        private void LoadHeroes()
-        {
-            var heroData = Singleton.Of<LoadResourceService>().LoadCsv<HeroDataCsv>();
-            var count = 0;
-            foreach (var hero in heroData.heroMap.Values)
-            {
-                _heroName[count].text = hero.id.ToString();
-                count++;
-            }
+            UIService.OpenScreen(UIPath.screen_battle.ToString(), args: 2).Forget();
         }
     }
 }

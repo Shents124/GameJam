@@ -28,6 +28,7 @@ public class HeroDataCsv : SerializedScriptableObject
 public struct HeroConfigData
 {
     public int id;
+    public string heroName;
     public HeroClass heroClass;
     public string skillDescription;
     public int attack;
