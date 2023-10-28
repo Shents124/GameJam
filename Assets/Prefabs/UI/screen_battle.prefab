@@ -1623,6 +1623,7 @@ MonoBehaviour:
   enemyContainer: {fileID: 7068567074223296779}
   battleBtn: {fileID: 8498915363748524417}
   cardUis: []
+  titleFloor: {fileID: 6184115193572525399}
 --- !u!1 &6472610137468537944
 GameObject:
   m_ObjectHideFlags: 0

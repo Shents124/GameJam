@@ -5,6 +5,7 @@ using Assets.Scripts.DataCsv;
 using Assets.Scripts.UI;
 using Cysharp.Threading.Tasks;
 using Gameplay;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using ZBase.Foundation.Singletons;
@@ -17,7 +18,10 @@ public class ScreenBattle : Screen
     [SerializeField] private RectTransform enemyContainer;
     [SerializeField] private Button battleBtn;
     [SerializeField] private List<UICard> cardUis = new();
+    [SerializeField] private TextMeshProUGUI titleFloor;
 
+
+    private GameObject _enemyObject;
     private List<Card> _cards = new();
     private BaseHero _hero;
     private BaseEnemy _enemy;
@@ -40,7 +44,7 @@ public class ScreenBattle : Screen
         Debug.Log("hero id " + heroId);
         LoadDataCsv(heroId);
         LoadHero(heroId);
-        LoadEnemy();
+        SetFloorData();
         return base.Initialize(args);
     }
 
@@ -69,9 +73,14 @@ public class ScreenBattle : Screen
         var floorData = _dungeonDataCsv.floorMap[_currentFloor];
 
         var path = $"enemy_{floorData.enemyId}";
-        var enemyObj = Singleton.Of<LoadResourceService>().LoadAsset<GameObject>(path);
-        var heroObject = Instantiate(enemyObj, enemyContainer);
-        _enemy = heroObject.GetComponent<BaseEnemy>();
+        var enemyObjName = Singleton.Of<LoadResourceService>().LoadAsset<GameObject>(path);
+        if (_enemyObject != null)
+        {
+            Destroy(_enemyObject);
+        }
+
+        _enemyObject = Instantiate(enemyObjName, enemyContainer);
+        _enemy = _enemyObject.GetComponent<BaseEnemy>();
 
         var enemyData = _dungeonDataCsv.enemyMap[floorData.enemyId];
         _enemy.InitData(enemyData.id, enemyData.attack, enemyData.defense, enemyData.health, 0, "");
@@ -85,6 +94,8 @@ public class ScreenBattle : Screen
         var cardData102 = GetCardCsv(_cardDataCsv.cardDict[102].GetPath());
         var cardData103 = GetCardCsv(_cardDataCsv.cardDict[103].GetPath());
 
+        List<Card> tempCard = new List<Card>();
+
         var card101 = new Card101();
         card101.InitData(cardData101);
 
@@ -93,20 +104,38 @@ public class ScreenBattle : Screen
 
         var card103 = new Card103();
         card103.InitData(cardData103);
-        _cards.Add(card101);
-        _cards.Add(card102);
-        _cards.Add(card103);
+        tempCard.Add(card101);
+        tempCard.Add(card102);
+        tempCard.Add(card103);
+        tempCard.Add(card103);
+        tempCard.Add(card103);
 
         _hero.OnUsePassiveSkill();
 
-        foreach (var card in _cards)
+        foreach (var card in tempCard)
         {
             card.OnUseCard(_hero, _enemy);
+            if (_enemy.Hp <= 0)
+            {
+                NextFloor();
+                SetFloorData();
+            }
         }
     }
 
     private CardCsv GetCardCsv(string path)
     {
         return Singleton.Of<LoadResourceService>().LoadAsset<CardCsv>(path);
+    }
+
+    private void NextFloor()
+    {
+        _currentFloor++;
+    }
+
+    private void SetFloorData()
+    {
+        titleFloor.text = $"Floor {_currentFloor}";
+        LoadEnemy();
     }
 }
